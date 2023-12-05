@@ -15,7 +15,7 @@ spec:
         app: customer-app  # Label applied to pods created by this deployment
     spec:
       containers:
-       —name: customer-app  # Name of the container
+       name: customer-app  # Name of the container
           image: web-api:latest  # Docker image to use
           imagePullPolicy: Never
           ports:
